@@ -1,5 +1,5 @@
 # Serverless-Notes-App
-A siimple CRUD notes app created using AWS serverless services. Can be viewed at http://notes-app-host-bucket.s3-website-eu-west-1.amazonaws.com/
+A siimple CRUD notes app created using AWS serverless development tools + services. Can be viewed at http://notes-app-host-bucket.s3-website-eu-west-1.amazonaws.com/
 
 The frontend was developed with Node, Angular and express(local testing) with CI/CD managed using AWS codepipeline alongside the trio of codecommit, codebuild and codedeploy.
 The frontend connects to the REST API backend, and is served statically using a public S3 bucket, with endpoint distributution handled via AWS CloudFront. 
